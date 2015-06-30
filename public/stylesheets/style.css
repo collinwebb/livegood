@@ -1,8 +1,33 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 16px Arial, sans-serif;
+  padding-top: 2em;
 }
-
-a {
-  color: #00B7FF;
+/*div {
+  border: 1px solid black;
+}*/
+img {
+  margin: 5px 5px 5px 5px;
+}
+.links {
+  padding-top: 2em;
+}
+.links > a {
+  padding-left: 1em;
+}
+.remove-padding {
+  padding: 0 0 0 0;
+}
+.lower-links {
+  font: 11px Arial;
+  padding-top: 0;
+}
+.small {
+  font: 9px Arial;
+}
+.top-align {
+  padding-top: 0;
+  margin-top: 5px;
+}
+.down {
+  margin-top: 38em;
 }

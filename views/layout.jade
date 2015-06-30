@@ -2,6 +2,48 @@ doctype html
 html
   head
     title= title
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+
   body
-    block content
+    .container
+      header
+        .row
+          .col-xs-4
+            a(href='/')
+              img(src='/images/living-good.png')
+          .col-xs-8.remove-padding
+            div.text-center
+              form
+                input(placeholder='Email: Join our list!')
+                button M
+            div.links.text-right
+              a Products
+              a(href='/mission') Our Mission
+              a Sustainability
+              a Dye Process
+              a Olympic Gold Standard
+              a Press
+        
+      block content
+        
+      footer
+        br
+        hr
+        div.links.lower-links.text-right
+          a HOME
+          a BLOG
+          a FAQ
+          a WHOLESALE
+          a SHIPPING & RETURN POLICY
+          a TERMS OF USE
+          a CONTACT
+            p US
+            
+          p.small COPYRIGHT © 2011-2012 LIVE GOOD, INC. ALL RIGHTS RESERVED.
+          br
+          br
+        
+    script(src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
